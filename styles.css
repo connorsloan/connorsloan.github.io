@@ -1,0 +1,54 @@
+html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Georgia';
+	padding: 0;
+	margin: 0;
+
+}
+header {
+	display: flex;
+/* 	background-color: green; */
+}
+header h1 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 50px;
+	max-font-size 300px;
+	letter-spacing: 1px;
+	min-width: 310px;
+	max-width: 500px;
+	margin: 10px 0px 0px 10px;
+	padding: 10px;
+/* 	background-color: red; */
+}
+header nav {
+	display: flex;
+	font-size: 20px;
+	position: relative;
+	top: 28px;
+	left: -20px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#divider {
+	background: white;
+	height: 1px;
+	margin-bottom: 10px;
+}
+iframe {
+	margin-top: 25px;
+}
