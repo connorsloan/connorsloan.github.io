@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+html {
+	background-color: black
+}
+
+body {
+	padding-bottom: 100px;
+}
+
+.wrapper {
+	/*width: 100%;*/
+}
+
+header {
+	margin-top: 10px;
+	font-family: "Bebas Neue";
+	margin-left: 8px;
+	margin-right: 8px;
+	/*background-color: green;*/
+}
+
+header h1 {
+	text-align: center;
+	font-size: 3.1em;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+
+hr {
+	border: none;
+	background-color: white;
+	margin: 10px 15px 0px 15px;
+	height: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+
+article {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+article img {
+	border: solid white 3px;
+	max-width: 60%;
+	max-height: 60%;
+}
+
+article div {
+	display: flex;
+	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+  	height: 100%;
+}
+
+#p1 {
+	font-size: 1.5em;
+	font-style: italic;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#p2 {
+	font-size: 1.3em;
+	margin: 20px 30px 0px 30px;
+	text-align: center;
+}
+
+#p3 {
+	font-size: 1.3em;
+	font-style: italic;
+	margin: 25px 30px 0px 30px;
+	text-align: center;
+}
+
+#connor {
+	transform: scaleX(-1);
+}
+
+.portrait-row {
+	display: flex;
+	width: 100%;
+	/*background: red;*/
+	justify-content: center;
+}
+
+.portrait-row div {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.portrait-row-div1 {
+	margin-right: -15px;
+}
+
+.portrait-row-div2 {
+	margin-left: -15px;
+}
+
+.portrait-row div p {
+	margin-top: 5px;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+	position: fixed;
+	margin-top: 0;
+  	bottom: 0;
+  	width: 100%;
+  	height: 80px;
+  	background-color: black;
+}
+
+footer hr {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+	gap: 8%;
+}
+
+footer ul img {
+	width: 3.2em;
+	height: 3.2em;
+}
+
+#live-dates {
+	text-align: center;
+}
+
+#live-header {
+	font-size: 1.7em;
+	font-style: italic;
+	text-decoration-line: underline;
+	margin: 20px 0px 0px 0px;
+}
+
+#shows {
+	font-size: 1.5em;
+	margin: 0px 15px 0px 15px;
+}
+
+@media only screen and (min-width: 768px) {
+
+	header{
+		display: inline-block;
+	}
+
+	#divider {
+		display: block;
+		background-color: white;
+		height: 2px;
+		width: 100%
+	}
+}
