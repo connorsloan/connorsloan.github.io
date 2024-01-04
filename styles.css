@@ -1,0 +1,257 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+html {
+	background-color: black
+}
+
+body {
+	margin: 0;
+	padding-top: 105px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: "Bebas Neue";
+	background-color: black;
+}
+
+header h1 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 2.9em;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	font-size: 30px;
+}
+
+hr {
+	border: none;
+	background-color: white;
+	margin: 5px 15px 0px 15px;
+	height: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+
+article {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+article img {
+	border: solid white 3px;
+	max-width: 60%;
+	max-height: 60%;
+}
+
+#coverart {
+	width: 50%;
+	height: 50%;
+}
+
+article div {
+	display: flex;
+	justify-content: center;
+  	align-content: center;
+  	flex-direction: column;
+  	height: 100%;
+}
+
+#p1 {
+	font-size: 1.5em;
+	font-style: italic;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#p2 {
+	font-size: 1.3em;
+	margin: 20px 30px 0px 30px;
+	text-align: center;
+}
+
+#p3 {
+	font-size: 1.3em;
+	font-style: italic;
+	margin: 25px 30px 0px 30px;
+	text-align: center;
+}
+
+#connor {
+	transform: scaleX(-1);
+	z-index: -1;
+}
+
+.portrait-row {
+	display: flex;
+	width: 100%;
+	/*background: red;*/
+	justify-content: center;
+}
+
+.portrait-row div {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.portrait-row-div1 {
+	margin-right: -15px;
+}
+
+.portrait-row-div2 {
+	margin-left: -15px;
+}
+
+.portrait-row div p {
+	margin-top: 5px;
+}
+
+footer {
+	/*align-items: center;*/
+	margin-top: 0;
+  	bottom: 0;
+  	width: 100%;
+}
+
+#live-page-footer {
+	position: relative;
+	bottom: 0;
+	margin-top: 35px;
+}
+
+footer hr {
+	margin-top: 25px;
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	gap: 10%;
+}
+
+footer ul img {
+	width: 2.5em;
+	height: 2.5em;
+}
+
+#live-dates {
+	text-align: center;
+}
+
+#live-header {
+	font-size: 1.7em;
+	font-style: italic;
+	text-decoration-line: underline;
+	margin: 20px 0px 0px 0px;
+}
+
+#shows {
+	font-size: 1.5em;
+	margin: 0px 15px 0px 15px;
+}
+
+@media only screen and (min-width: 768px) {
+	/*
+	Find a way to change header so that all words rest on a line,
+	with home first, name second, and live last. Home and live
+	smaller than name.
+
+	#header-items{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-left: 15px;
+		margin-bottom: -10px;
+	}
+	
+	header h1 {
+		font-size: 4em;
+	}
+	
+	header nav {
+		display: inline;
+		margin-top: 32px;
+		margin-left: 25px;
+		font-size: 2.5em;
+	}
+	
+	#live-link {
+		margin-left: 20px;
+	}*/
+	body {
+		padding-top: 140px;
+	}
+	
+	header h1 {
+		font-size: 3em;
+	}
+	
+	header nav {
+		font-size: 2.5em;
+	}
+	
+	#live-link {
+		margin-left: 20px;
+	}
+	
+	#coverart {
+		width: 350px;
+		height: 350px;
+	}
+	
+	#p1 {
+		margin-top: -20px;
+		font-size: 2em;
+    }
+
+	#p2 {
+		font-size: 2em;
+		margin: 20px 100px 0px 100px;
+	}
+
+	#p3 {
+		font-size: 2em;
+		margin: 25px 30px 10px 30px;
+	}
+
+	article ul {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	.portrait-row-div1 {
+		margin-right: 0px;
+	}
+
+	.portrait-row-div2 {
+		margin-left: 0px;
+	}
+	
+	article ul img {
+		border: solid white 3px;
+		max-width: 70%;
+		max-height: 70%;
+	}
+	
+	#live-header {
+		margin-top: 0px;
+	}
+}
