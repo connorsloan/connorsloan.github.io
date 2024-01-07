@@ -67,11 +67,11 @@
 		align-items: center;
 	}
 	
-	.portrait-row-div1 {
+	#prow-div1 {
 		margin-right: 0px;
 	}
 
-	.portrait-row-div2 {
+	#prow-div2 {
 		margin-left: 0px;
 	}
 	
