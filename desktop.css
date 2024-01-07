@@ -1,0 +1,86 @@
+/*
+	Find a way to change header so that all words rest on a line,
+	with home first, name second, and live last. Home and live
+	smaller than name.
+
+	#header-items{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-left: 15px;
+		margin-bottom: -10px;
+	}
+	
+	header h1 {
+		font-size: 4em;
+	}
+	
+	header nav {
+		display: inline;
+		margin-top: 32px;
+		margin-left: 25px;
+		font-size: 2.5em;
+	}
+	
+	#live-link {
+		margin-left: 20px;
+	}*/
+	body {
+		padding-top: 140px;
+	}
+	
+	header h1 {
+		font-size: 3em;
+	}
+	
+	header nav {
+		font-size: 2.5em;
+	}
+	
+	#live-link {
+		margin-left: 20px;
+	}
+	
+	#coverart {
+		width: 350px;
+		height: 350px;
+	}
+	
+	#p1 {
+		margin-top: -20px;
+		font-size: 2em;
+    }
+
+	#p2 {
+		font-size: 2em;
+		margin: 20px 100px 0px 100px;
+	}
+
+	#p3 {
+		font-size: 2em;
+		margin: 25px 30px 10px 30px;
+	}
+
+	article ul {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	
+	.portrait-row-div1 {
+		margin-right: 0px;
+	}
+
+	.portrait-row-div2 {
+		margin-left: 0px;
+	}
+	
+	article ul img {
+		border: solid white 3px;
+		max-width: 70%;
+		max-height: 70%;
+	}
+	
+	#live-header {
+		margin-top: 0px;
+	}
