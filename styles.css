@@ -109,11 +109,11 @@ article div {
 	margin-top: 20px;
 }
 
-.portrait-row-div1 {
+#prow-div1 {
 	margin-right: -15px;
 }
 
-.portrait-row-div2 {
+#prow-div2 {
 	margin-left: -15px;
 }
 
@@ -219,7 +219,7 @@ footer ul img {
 	#p1 {
 		margin-top: -20px;
 		font-size: 2em;
-    }
+    	}
 
 	#p2 {
 		font-size: 2em;
@@ -237,11 +237,11 @@ footer ul img {
 		align-items: center;
 	}
 	
-	.portrait-row-div1 {
+	#prow-div1 {
 		margin-right: 0px;
 	}
 
-	.portrait-row-div2 {
+	#prow-div2 {
 		margin-left: 0px;
 	}
 	
