@@ -60,8 +60,7 @@
 
 <script>
 window.onload = function() {
-    //considering there aren't any hashes in the urls already
-    if(window.location.href.indexOf('home') == -1) {
+    if(!window.location.hash.indexOf('home') > -1) {
         window.location = window.location + 'home';
         window.location.reload();
     }
