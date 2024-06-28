@@ -59,7 +59,7 @@ article img {
 }
 
 #coverart {
-	border: burlywood;
+	border: solid lightcyan 3px;
 	width: 50%;
 	height: 50%;
 }
