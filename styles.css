@@ -59,6 +59,7 @@ article img {
 }
 
 #coverart {
+	border: none;
 	width: 50%;
 	height: 50%;
 }
