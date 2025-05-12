@@ -129,7 +129,8 @@ section div img {
 
 footer {
 	/*align-items: center;*/
-	margin-top: 0;
+	position: fixed
+	/*margin-top: 0;*/
   	bottom: 0;
   	width: 100%;
 }
