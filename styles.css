@@ -136,7 +136,7 @@ footer {
 }
 
 #live-page-footer {
-	position: relative;
+	position: fixed;
 	bottom: 0;
 	margin-top: 35px;
 }
